@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What's Your Coffee Style?</title>
-    <link rel="stylesheet" href="index.css"> <!-- Vincula sua folha de estilo -->
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula sua folha de estilo -->
 </head>
 <body>
     <!-- Título da página -->
-    <h1 id="title">What's Your Coffee Style?"</h1>  
-    
+    <h1 id="title">What's Your Coffee Style?
+    <img src="xicara-de-cafe.png" alt="cafe1"></h1>
     <!-- Breve explicação -->
     <p id="description">We want to learn more about your coffee preferences! Please answer these questions to help us improve our coffee selection.</p>
     
@@ -19,7 +19,7 @@
         <!-- Campo de entrada para nome -->
       
 
-        <label id="name-label" for="name">Nome:</label>
+        <label id="name-label" for="name">Name:</label>
         <input id="name" type="text" placeholder="Enter your name" required>
         
         <!-- Campo de entrada para e-mail -->
@@ -27,7 +27,7 @@
         <input id="email" type="email" placeholder="Enter your e-mail" required>
         
         <!-- Campo de entrada para número -->
-        <label id="number-label" for="number">Número:</label>
+        <label id="number-label" for="number">Number:</label>
         <input id="number" type="number" placeholder="Enter your number" min="1" max="100">
         
         <!-- Menu suspenso -->
@@ -79,30 +79,31 @@
       
 
         </fieldset>
+        
          <!-- Menu suspenso -->
+         <fieldset>
         <label for="dropdown">How do you like the strength of your coffee?
 </label>
 
-        <select id="dropdown">
+        <select id="dropdown" class="dropdown2">
                         <option value="option0">Select current role</option>
 
             <option value="option1">Strong</option>
 <option value="option2">Medium</option>
 <option value="option3">Mild</option>
 
-
-<legend>Do you prefer your coffee with any type of sweetener or none?
-:</legend>
-
-
-            <label><input type="checkbox" name="checkbox-group" value="preference1">No sweetener</label>
-            <label><input type="checkbox" name="checkbox-group" value="preference2"> Sugar </label>
-            <label><input type="checkbox" name="checkbox-group" value="preference3"> Artificial sweetener</label>
-           <label><input type="checkbox" name="checkbox-group" value="preference4"> Honey</label>
-          <label><input type="checkbox" name="checkbox-group" value="preference5"> Other:</label>
-
-        </fieldset>
         </select>
+    </fieldset>
+
+<fieldset>
+    <legend>Do you prefer your coffee with any type of sweetener or none?</legend>
+    <label><input type="checkbox" name="checkbox-group" value="preference1"> No sweetener</label><br>
+    <label><input type="checkbox" name="checkbox-group" value="preference2"> Sugar</label><br>
+    <label><input type="checkbox" name="checkbox-group" value="preference3"> Artificial sweetener</label><br>
+    <label><input type="checkbox" name="checkbox-group" value="preference4"> Honey</label><br>
+    <label><input type="checkbox" name="checkbox-group" value="preference5"> Other:</label>
+</fieldset>
+        
 
         <!-- Campo de comentários -->
         <label for="comments">Any additional comments or suggestions for our coffee selection?</label>
@@ -117,5 +118,4 @@
         </select>
 </body>
 </html>
-
 
