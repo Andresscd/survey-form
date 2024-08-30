@@ -1,0 +1,96 @@
+
+body {
+    margin: 20px; /* Espaçamento ao redor da página */
+    background-color: #f9f9f9; /* Cor de fundo suave */
+    font-family: 'Times New Roman', serif;
+
+}
+
+/* Estilo do título */
+h1 {font-family: 'Merriweather', serif;
+    color: #333; /* Cor escura para contraste */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Estilo do parágrafo de descrição */
+#description {
+    color: #666; /* Cor do texto menos intensa */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 30px; /* Espaço abaixo da descrição */
+}
+
+/* Estilo do formulário */
+form {
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+    padding: 20px; /* Espaçamento interno do formulário */
+    background-color: #fff; /* Cor de fundo branca */
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estilo dos labels */
+label {
+    display: block; /* Faz com que o label ocupe a linha inteira */
+    margin-top: 15px; /* Espaçamento acima do label */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #333; /* Cor do texto do label */
+}
+
+/* Estilo dos campos de entrada e seleção */
+input[type="text"], input[type="email"], input[type="number"], select, textarea {
+    display: block; /* Faz com que os campos ocupem a linha inteira */
+    width: calc(100% - 22px); /* Largura ajustada para incluir o padding */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 5px; /* Espaçamento acima dos campos */
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+}
+
+/* Estilo do textarea */
+textarea {
+    height: 120px; /* Altura ajustada */
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+/* Estilo dos campos de opção e seleção */
+fieldset {
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 4px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento acima do fieldset */
+}
+
+legend {
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo dos botões de opção e caixas de seleção */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px; /* Espaço à direita dos botões */
+}
+
+/* Estilo do botão de envio */
+button {
+    display: block; /* Faz com que o botão ocupe a linha inteira */
+    margin-top: 20px; /* Espaçamento acima do botão */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    background-color: gray; /* Cor de fundo azul */
+    color: white; /* Cor do texto branco */
+    border: none; /* Remove borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar um botão clicável */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilo do botão de envio ao passar o mouse */
+button:hover {
+    background-color: beige; /* Cor de fundo ao passar o mouse */
+}
+
+
+
