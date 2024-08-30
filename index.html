@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's Your Coffee Style?</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula sua folha de estilo -->
+</head>
+<body>
+    <!-- Título da página -->
+    <h1 id="title">What's Your Coffee Style?"</h1>  
+    
+    <!-- Breve explicação -->
+    <p id="description">We want to learn more about your coffee preferences! Please answer these questions to help us improve our coffee selection.</p>
+    
+
+    <!-- Formulário -->
+    <form id="survey-form">
+        <!-- Campo de entrada para nome -->
+      
+
+        <label id="name-label" for="name">Nome:</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+        
+        <!-- Campo de entrada para e-mail -->
+        <label id="email-label" for="email">E-mail:</label>
+        <input id="email" type="email" placeholder="Enter your e-mail" required>
+        
+        <!-- Campo de entrada para número -->
+        <label id="number-label" for="number">Número:</label>
+        <input id="number" type="number" placeholder="Enter your number" min="1" max="100">
+        
+        <!-- Menu suspenso -->
+        <label for="dropdown">How often do you drink coffee?
+
+</label>
+        <select id="dropdown">
+                        <option value="option0">Select current role</option>
+
+            <option value="option1">Every day</option>
+            <option value="option2">Several times a week</option>
+           <option value="option3">Once a week</option>
+<option value="option4">Rarely</option>
+<option value="option5">Never</option>
+
+        </select>
+        
+
+        <!-- Botões de opção -->
+        <fieldset>
+            <legend>What is your favorite coffee drink?</legend>
+            <label><input type="radio" name="radio-group" value="option1"> Espresso</label>
+            <label><input type="radio" name="radio-group" value="option2"> Cappuccino</label>
+
+            <label><input type="radio" name="radio-group" value="option3"> Latte</label>
+
+            <label><input type="radio" name="radio-group" value="option4"> Americano</label>
+
+            <label><input type="radio" name="radio-group" value="option5"> Mocha</label>
+
+
+            <label><input type="radio" name="radio-group" value="option6"> Cold Brew</label>
+
+
+            <label><input type="radio" name="radio-group" value="option7"> Other:</label>
+        </fieldset>
+        
+
+        <fieldset>
+            <legend>What flavor do you enjoy in your coffee?
+:</legend>
+            <label><input type="checkbox" name="checkbox-group" value="preference1">Vanilla</label>
+            <label><input type="checkbox" name="checkbox-group" value="preference2"> Caramel </label>
+            <label><input type="checkbox" name="checkbox-group" value="preference3"> Hazelnut</label>
+           <label><input type="checkbox" name="checkbox-group" value="preference4"> Mocha</label>
+          <label><input type="checkbox" name="checkbox-group" value="preference5"> None</label>
+
+          <label><input type="checkbox" name="checkbox-group" value="preference6"> Other:</label>
+      
+
+        </fieldset>
+         <!-- Menu suspenso -->
+        <label for="dropdown">How do you like the strength of your coffee?
+</label>
+
+        <select id="dropdown">
+                        <option value="option0">Select current role</option>
+
+            <option value="option1">Strong</option>
+<option value="option2">Medium</option>
+<option value="option3">Mild</option>
+
+
+<legend>Do you prefer your coffee with any type of sweetener or none?
+:</legend>
+
+
+            <label><input type="checkbox" name="checkbox-group" value="preference1">No sweetener</label>
+            <label><input type="checkbox" name="checkbox-group" value="preference2"> Sugar </label>
+            <label><input type="checkbox" name="checkbox-group" value="preference3"> Artificial sweetener</label>
+           <label><input type="checkbox" name="checkbox-group" value="preference4"> Honey</label>
+          <label><input type="checkbox" name="checkbox-group" value="preference5"> Other:</label>
+
+        </fieldset>
+        </select>
+
+        <!-- Campo de comentários -->
+        <label for="comments">Any additional comments or suggestions for our coffee selection?</label>
+        <textarea id="comments" placeholder="Free text field for respondents to share their thoughts]"></textarea>
+
+        </select>
+        <!-- Botão de envio -->
+        <button id="submit" type="submit">Submit</button>
+    </form>
+
+     
+        </select>
+</body>
+</html>
+
+
