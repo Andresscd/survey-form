@@ -1,7 +1,8 @@
 
+
 body {
     margin: 20px; /* Espaçamento ao redor da página */
-    background-color: #f9f9f9; /* Cor de fundo suave */
+    background-color: #f9f9f9;
     font-family: 'Times New Roman', serif;
 
 }
@@ -13,6 +14,11 @@ h1 {font-family: 'Merriweather', serif;
     margin-bottom: 20px; /* Espaço abaixo do título */
 }
 
+img {
+    width: 4%;
+    height: 2%;
+    position: top;
+}
 /* Estilo do parágrafo de descrição */
 #description {
     color: #666; /* Cor do texto menos intensa */
@@ -37,6 +43,7 @@ label {
     margin-top: 15px; /* Espaçamento acima do label */
     font-weight: bold; /* Deixa o texto em negrito */
     color: #333; /* Cor do texto do label */
+    padding: 1%;
 }
 
 /* Estilo dos campos de entrada e seleção */
@@ -87,10 +94,9 @@ button {
     font-size: 16px; /* Tamanho da fonte */
 }
 
+
+
 /* Estilo do botão de envio ao passar o mouse */
 button:hover {
     background-color: beige; /* Cor de fundo ao passar o mouse */
 }
-
-
-
